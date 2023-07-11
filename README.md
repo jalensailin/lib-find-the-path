@@ -1,3 +1,6 @@
+# IMPORTANT NOTE!
+This is a fork of @dwonderley's module. I am attempting to update it for v10. Just wanted to make sure to credit the original author.
+
 # lib-find-the-path
 ## Changelog
 1.4.0
