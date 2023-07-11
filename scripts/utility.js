@@ -125,7 +125,13 @@ export class FTPUtility {
           new Ray(
             { x: ps1[i].cpx, y: ps1[i].cpy },
             { x: ps2[i].cpx, y: ps2[i].cpy }
-          )
+          ),
+          {
+            blockMovement: false,
+            blockSenses: true,
+            mode: "any",
+            type: "sight",
+          }
         )
       )
         return false;
